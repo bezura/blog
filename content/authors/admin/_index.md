@@ -14,21 +14,20 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Студент НПИ
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
+  - name: RUDN
     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 18 лет, 1ый курс, отличник-степендиат, олимпиадник
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Програмирование
+  - Робототехника
 
 # Education to show in About widget
 education:
@@ -80,5 +79,5 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Хрусталев Влад Николаевич - 18 лет, студент 1ого курса, группа НПИбд-02-22. На данный момент одним из моих главных интересов явлется программирование.
 {style="text-align: justify;"}
