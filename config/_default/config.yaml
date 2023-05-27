@@ -3,16 +3,20 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseURL: 'https://example.com/' # Website URL
+title: WOW-BLOGGG # Website name
+baseURL: 'https://Bezura.github.io/' # Website URL
+
+ignoreErrors: ["error-remote-getcsv"]
+
+
 
 ############################
 ## LANGUAGE
 ############################
 
 defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+hasCJKLanguage: true
+defaultContentLanguageInSubdir: en
 removePathAccents: true
 
 ############################
