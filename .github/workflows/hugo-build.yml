@@ -1,0 +1,33 @@
+name: Hugo Build and Deploy
+
+on:
+  push:
+    branches:
+      - main  # Убедитесь, что это совпадает с вашей основной веткой
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+
+    - name: Build
+      run: hugo --minify
+
+    - name: Deploy to GitHub Pages
+      if: github.event_name == 'push'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        external_repository: bezura/blog # Замените на ваше имя пользователя и репозиторий
+        publish_dir: ./public
