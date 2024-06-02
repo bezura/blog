@@ -12,7 +12,7 @@ address:
   postcode: '94305'
   country: United States
 
-summary: An example talk using Wowchemy's Markdown slides feature.
+summary: An kurs talk using Wowchemy's Markdown slides feature.
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
@@ -47,9 +47,9 @@ url_video: ''
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   E.g. `slides = "kurs-slides"` references `content/slides/kurs-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: kurs
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -57,7 +57,7 @@ slides: example
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-  - example
+  - kurs
 ---
 
 {{% callout note %}}

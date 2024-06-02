@@ -1,5 +1,5 @@
 ---
-title: 'An example conference paper'
+title: 'An kurs conference paper'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -66,14 +66,14 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - example
+  - kurs
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   E.g. `slides: "kurs"` references `content/slides/kurs/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: kurs
 ---
 
 {{% callout note %}}

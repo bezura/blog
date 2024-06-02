@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: "An kurs journal article"
 authors:
 - admin
 - Robert Ford
@@ -60,9 +60,9 @@ projects: []
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   E.g. `slides: "kurs"` references `content/slides/kurs/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: kurs
 ---
 
 {{% callout note %}}
